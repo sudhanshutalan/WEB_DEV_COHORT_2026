@@ -1,3 +1,5 @@
 # My Resume
 
-![Resume](image.png)
+<p align="center">
+  <img src="image.png" alt="Resume" width="800">
+</p>
