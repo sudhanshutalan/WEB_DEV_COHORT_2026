@@ -2,33 +2,85 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Assignments</title>
-  </head>
-  <body>
     <style>
+      :root {
+        --bg: #0b1216;
+        --card: rgba(255, 255, 255, 0.03);
+        --muted: #9fb7d6;
+        --accent: #60a5fa;
+      }
+      html,
       body {
-        background-color: rgb(13, 14, 13);
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+        background: linear-gradient(180deg, var(--bg), #071218 120%);
+        color: #e6eef8;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 32px;
+      }
+      .container {
+        width: 100%;
+        max-width: 760px;
+        background: var(--card);
+        border-radius: 12px;
+        padding: 28px;
+        box-shadow: 0 10px 30px rgba(2, 6, 23, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.03);
       }
       h1 {
-        color: #fff;
+        margin: 0 0 12px 0;
+        font-size: 1.6rem;
+        letter-spacing: -0.2px;
+        color: #ffffff;
       }
       .assignment {
         list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .assignment li {
+        margin: 8px 0;
       }
       .assignment a {
+        display: block;
+        padding: 12px 14px;
+        border-radius: 8px;
+        color: var(--muted);
         text-decoration: none;
-        color: #fff;
-        font-size: 1.2rem;
+        transition: all 0.18s ease;
+        border: 1px solid transparent;
       }
       .assignment a:hover {
-        color: blue;
+        color: #eaf6ff;
+        transform: translateX(6px);
+        background: rgba(96, 165, 250, 0.06);
+        border-color: rgba(96, 165, 250, 0.12);
+        box-shadow: 0 6px 18px rgba(9, 30, 66, 0.35);
+      }
+      .assignment a:focus {
+        outline: 2px solid rgba(96, 165, 250, 0.16);
       }
     </style>
-    <h1>My Assignments</h1>
-    <ul class="assignment">
-      <li><a href="./01_html_resume/">HTML Resume</a></li>
-      <li><a href="./02_cursor_landing_page/">Cursor Landing Page</a></li>
-      <li><a href="./03_mintlify_page/">Mintlify Page</a></li>
-    </ul>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Assignments</h1>
+      <ul class="assignment">
+        <li><a href="./01_html_resume/">HTML Resume</a></li>
+        <li><a href="./02_cursor_landing_page/">Cursor Landing Page</a></li>
+        <li><a href="./03_mintlify_page/">Mintlify Page</a></li>
+      </ul>
+    </div>
   </body>
 </html>
