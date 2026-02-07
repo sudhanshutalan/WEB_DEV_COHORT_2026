@@ -1,3 +1,5 @@
+/* GLOBAL STYLES & RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
+
+/* NAVIGATION STYLES */
 
 /* class from styling anchor link text*/
 .nav-link-a {
@@ -42,10 +46,12 @@ body {
   gap: 1rem;
 }
 
+/* BUTTON STYLES */
+
 .btn-sign {
   padding: 0.3rem 0.6rem;
   border-radius: 1rem;
-  background: #000;
+  background: #d3d2d28b;
   color: #edecec;
   border: 1px solid #ffffff54;
   outline: none;
@@ -68,10 +74,8 @@ body {
   background-color: #ffffff9d;
 }
 
-/* .default-container {
-  max-width: 80vw;
-  margin: 0 auto;
-} */
+/* HERO SECTION STYLES */
+
 .hero-section-container {
   width: 100%;
   height: 100%;
@@ -168,6 +172,9 @@ body {
   object-fit: cover;
   border-radius: 1rem;
 }
+
+/* BRANDS SHOWCASE STYLES */
+
 .brands-container {
   width: 60rem;
   height: auto;
@@ -181,6 +188,9 @@ body {
   width: 100%;
   gap: 3rem;
 }
+
+/* INTELLIGENCE FEATURES SECTION STYLES */
+
 .intelligence-section {
   width: 100%;
   margin-top: 2rem;
@@ -265,6 +275,9 @@ body {
   object-fit: fill;
   /* padding: 1rem; */
 }
+
+/* ENTERPRISE SECTION STYLES */
+
 .entrprise-container-main {
   background-color: #131313;
   padding: 3rem 0;
@@ -314,7 +327,8 @@ body {
   text-align: justify;
 }
 
-/* Customer Story Card */
+/* CUSTOMER STORY CARD STYLES */
+
 .customer-story-card {
   position: relative;
   width: 100%;
@@ -387,7 +401,8 @@ body {
   margin: 2rem 0;
 }
 
-/* Footer Styles */
+/* FOOTER STYLES */
+
 .footer {
   background-color: #0d0d0d;
 }
@@ -516,6 +531,8 @@ body {
   transition: color 0.2s;
 }
 
+/* CUSTOMERS SECTION STYLES */
+
 .customers-section {
   padding: 5rem 0;
   max-width: 1200px;
@@ -580,7 +597,8 @@ body {
   color: #fff;
 }
 
-/* CTA Section */
+/* CALL TO ACTION (CTA) SECTION STYLES */
+
 .cta-section {
   padding: 6rem 2rem;
   max-width: 1200px;
